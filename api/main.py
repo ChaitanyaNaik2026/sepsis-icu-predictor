@@ -9,8 +9,8 @@ import os
 from datetime import datetime
 
 # Import local modules
-from preprocessing import SepsisDataPreprocessor
-from models import SepsisPredictor
+from .preprocessing import SepsisDataPreprocessor
+from .models import SepsisPredictor
 
 app = FastAPI(
     title="Sepsis Prediction API",
