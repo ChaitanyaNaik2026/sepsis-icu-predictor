@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-22T22:27:46.564985",
+  "training_summary": {
+    "samples": 599,
+    "sepsis_cases": 208,
+    "sepsis_rate": 0.34724540901502504,
+    "features": 22
+  },
+  "model_performance": {
+    "random_forest": {
+      "auc": 0.8235653235653235,
+      "accuracy": 0.7083333333333334,
+      "precision": 0.5714285714285714,
+      "recall": 0.6666666666666666,
+      "f1": 0.6153846153846153,
+      "specificity": 0.7307692307692307,
+      "confusion_matrix": {
+        "tn": 
