@@ -1,4 +1,4 @@
-markdown# 🏥 Sepsis ICU Predictor
+# 🏥 Sepsis ICU Predictor
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -24,9 +24,12 @@ An AI-powered system for **early detection of sepsis in ICU patients** using a m
 ---
 
 ## 🔁 System Architecture
+
+```
 Patient Data → Preprocessing → Feature Engineering
 → Ensemble (RF + XGBoost + NN + GBM) → Weighted Voting
 → Risk Probability (0–1) → Clinical Recommendations
+```
 
 ---
 
@@ -56,17 +59,20 @@ Patient Data → Preprocessing → Feature Engineering
 ---
 
 ## 📁 Project Structure
+
+```
 sepsis-icu-predictor/
-├── api/                    # FastAPI backend
-│   ├── main.py             # API endpoints
-│   ├── models.py           # ML model loading & inference
-│   └── preprocessing.py    # Data preprocessing & validation
+├── api/
+│   ├── main.py              # API endpoints
+│   ├── models.py            # ML model loading & inference
+│   └── preprocessing.py     # Data preprocessing & validation
 ├── app/
-│   └── streamlit_app.py    # Web dashboard
-├── data/                   # Datasets
-├── models/                 # Trained model artifacts (4 models)
-├── scripts/                # Training pipeline
+│   └── streamlit_app.py     # Web dashboard
+├── data/                    # Datasets
+├── models/                  # Trained model artifacts (4 models)
+├── scripts/                 # Training pipeline
 └── requirements.txt
+```
 
 ---
 
